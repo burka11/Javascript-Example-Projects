@@ -5,7 +5,7 @@ function myFunction(event) {
     console.log(isimsoyisim.value);
    
     // document.getElementById("firstList").innerHTML=isimsoyisim;    
-     document.getElementById("firstList").innerHTML+=`<li>${isimsoyisim.value+numara.value}</li>`;
+     document.getElementById("firstList").innerHTML+=`<li> Şahıs ismi : ${isimsoyisim.value+ " Numara:   "+ numara.value}</li>`;
     // list1.innerHTML=isimsoyisim.value + "\n " +numara.value;
 }
 
